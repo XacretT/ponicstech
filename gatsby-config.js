@@ -18,6 +18,15 @@ module.exports = {
     }
   },
   plugins: [
+      {
+        resolve: 'gatsby-plugin-i18n',
+        options: {        
+          langKeyDefault: 'en',
+          useLangKeyLayout: false,
+          prefixDefault: false,
+        }
+      },
+
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
@@ -53,12 +62,12 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID
-      }
-    },
+ //   {
+ //     resolve: "gatsby-plugin-google-analytics",
+  //    options: {
+  //      trackingId: config.googleAnalyticsID
+   //   }
+   // },
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
@@ -101,7 +110,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Advanced Starter";
+          ret.generator = "Ponics Technologies";
           return ret;
         },
         query: `

@@ -29,6 +29,7 @@ class HomeSlider extends Component {
           <div data-animation="fadeInDown" data-animation-delay={2000} data-animation-duration={1500} style={{animationDuration: '1500ms'}} className="fadeInDown u-in-viewport">
             <Link className="btn btn-lg u-btn-outline-black g-font-weight-600 g-font-size-13 text-uppercase g-rounded-50 mx-2 g-px-25 g-py-15" to="/products/">Discover More</Link>
             <Link className="btn btn-lg u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase g-rounded-50 mx-2 g-px-25 g-py-15" to="/products/">Our Products</Link>
+     
           </div>
         </div>
       </section>

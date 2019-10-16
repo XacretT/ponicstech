@@ -1,12 +1,12 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
-import Layout from "../layout/index";
+import Layout from "../layout";
 // import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-import Header from "../components/Header";
+import Header from "../components/Canna/Header";
 import HomeSlider from "../components/HomeSlider";
 import IconBlocks from "../components/IconBlocks";
 import HomeAbout from "../components/HomeAbout";
@@ -22,9 +22,7 @@ class Index extends React.Component {
 
           <SEO />
           <Header />
-          <HomeSlider />
-          <IconBlocks />
-          <HomeAbout />
+
           {/* <PostListing postEdges={postEdges} /> */}
         </div>
         
@@ -34,30 +32,3 @@ class Index extends React.Component {
 }
 
 export default Index;
-
-/* eslint no-undef: "off" */
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [fields___date], order: DESC }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-  }
-`;

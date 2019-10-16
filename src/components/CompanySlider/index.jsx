@@ -4,10 +4,10 @@ import tray from './tray.png'
 
 const CompanySlider = () => (
 
-  <section className="g-bg-gray-light-v5 g-pb-100">
+  <section className="g-bg-gray-light-v5 g-pb-100 g-pt-100">
     <div className="container">
-    <div className="row justify-content-between g-pt-140">
-      <div className="col-md-6 align-self-center g-mb-40 g-mb-0--md">
+      <div className="row justify-content-between g-pt-140">
+        <div className="col-md-6 align-self-center g-mb-40 g-mb-0--md">
         <h2 className="g-color-gray-dark-v3 g-font-weight-600 g-font-size-30 text-uppercase g-line-height-1_2 g-letter-spacing-1_5 g-mb-40">We are Ponics Technologies<br /><span className="g-color-primary">Supplying growing systems</span>
         </h2>
 
@@ -39,16 +39,16 @@ const CompanySlider = () => (
         </div>
 
         <p className="text-uppercase g-font-size-20 mb-0">
-        <Link to="/contactus/" className="btn btn-lg u-btn-primary u-btn-hover-v1-4 g-mr-10 g-mb-15">Contact us</Link>
+          <Link to="/contactus/" className="btn btn-lg u-btn-primary u-btn-hover-v1-4 g-mr-10 g-mb-15">Contact us</Link>
         </p>
       </div>
-      <div className="col-md-6 align-self-end g-overflow-hidden">
+        <div className="col-md-6 align-self-end g-overflow-hidden">
         <img className="img-fluid" src={tray} alt="Growing tray, H-Type" />
       </div>
+      </div>
     </div>
-  </div>
   
-</section>
+  </section>
 
 
 

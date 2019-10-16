@@ -23,7 +23,7 @@ class HomeSlider extends Component {
           </div>
           <div className="mx-auto g-max-width-600 g-overflow-hidden">
             <p className="g-color-black g-font-size-18 g-font-size-24--md g-mb-40 fadeInDown u-in-viewport" data-animation="fadeInDown" data-animation-delay={1600} data-animation-duration={1500} style={{animationDuration: '1500ms'}}>
-        Delivering high-end industrial aeroponics and hydroponics systems to fit all agricultural business purposes and personal plants cultivation needs
+        Delivering high-end industrial aeroponic and hydroponic systems to fit all agricultural business purposes and personal plants cultivation needs
             </p>
           </div>
           <div data-animation="fadeInDown" data-animation-delay={2000} data-animation-duration={1500} style={{animationDuration: '1500ms'}} className="fadeInDown u-in-viewport">

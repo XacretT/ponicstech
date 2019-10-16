@@ -5,6 +5,7 @@ import kolev from './kolev.jpg'
 import belous from './belous.jpg'
 import timrieva from './timrieva.jpg'
 import kiselev from './kiselev.jpg'
+import azatian from './azatian.jpg'
 
 
 const CompanyTeam = () => (
@@ -165,6 +166,77 @@ He graduated from the Kiev Polytechnic Institute with a degree in Chemical Techn
         <p className="lead g-line-height-1_8">Experienced manager with a well-developed skills in solving crisis situations.<br />
 Experience in business for more than 5 years.<br />
 Has the specialty of a laboratory chemist.<br /></p>
+        <hr className="g-brd-gray-light-v4 g-my-20" />
+      </div>
+    </div>
+  </div>
+  {/* End User Block */}
+
+
+
+
+    {/* User Block */}
+    <div className="g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-40">
+    <div className="row">
+      <div className="col-lg-4 g-mb-40 g-mb-0--lg">
+        {/* User Image */}
+        <div className="u-block-hover g-pos-rel g-mb-20">
+          <figure>
+            <img className="img-fluid w-100 u-block-hover__main--zoom-v1" src={azatian} alt="Artur Azatian" />
+          </figure>
+        </div>
+        {/* User Image */}
+        {/* User Contact Buttons */}
+        <a className="btn btn-block u-btn-darkgray g-rounded-50 g-py-12 g-mb-10" href="mailto:cmo@ponics.tech">
+          <i className="icon-envelope-letter g-pos-rel g-top-1 g-mr-5" /> Contact Me
+        </a>
+        <a className="btn btn-block u-btn-darkgray g-rounded-50 g-py-12 g-mb-10" href="tel:+17472207619">
+          <i className="icon-phone g-pos-rel g-top-1 g-mr-5" /> Call me +1(747)220-7619
+        </a>
+        {/* End User Contact Buttons */}
+      </div>
+      <div className="col-lg-8">
+        {/* User Details */}
+        <div className="d-flex align-items-center justify-content-sm-between g-mb-5">
+          <h2 className="g-font-weight-300 g-mr-10">Arthur Azatyan</h2>
+          <ul className="list-inline mb-0">
+            <li className="list-inline-item g-mx-2">
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://vk.com/keyzerov">
+                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-vk" />
+                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-vk" />
+              </a>
+            </li>
+            <li className="list-inline-item g-mx-2">
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.linkedin.com/in/pavel-keyzerov-13893a162/">
+                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-linkedin" />
+                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-linkedin" />
+              </a>
+            </li>
+            <li className="list-inline-item g-mx-2">
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.instagram.com/keizerof/">
+                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-instagram" />
+                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-instagram" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        {/* End User Details */}
+        {/* User Position */}
+        <h4 className="h6 g-font-weight-300 g-mb-10">
+          <i className="icon-badge g-pos-rel g-top-1 g-mr-5 g-color-gray-dark-v5" /> CMO, Engineer.
+        </h4>
+        {/* End User Position */}
+        {/* User Info */}
+        <ul className="list-inline g-font-weight-300">
+          <li className="list-inline-item g-mr-20">
+            <i className="icon-location-pin g-pos-rel g-top-1 g-color-gray-dark-v5 g-mr-5" /> Los Angeles, United States of America
+          </li>
+        </ul>
+        {/* End User Info */}
+        <hr className="g-brd-gray-light-v4 g-my-20" />
+        <p className="lead g-line-height-1_8">Arthur combines a unique engineering and sales experience. <br />
+        Previously achieved significant results as an executive director in commercial real estate companies.<br />
+Graduated Moscow State Industrial University with the Specialist degree in automotive engineering<br /></p>
         <hr className="g-brd-gray-light-v4 g-my-20" />
       </div>
     </div>

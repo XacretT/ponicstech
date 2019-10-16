@@ -61,7 +61,7 @@ class Index extends React.Component {
 
         {/* Heading */}
         <div className="text-center">
-          <h2 className="h1 g-color-black g-font-weight-600 mb-5">Many advantages</h2>
+          <h2 className="h1 g-color-black g-font-weight-600 mb-5">Advantages</h2>
         </div>
         {/* End Heading */}
 

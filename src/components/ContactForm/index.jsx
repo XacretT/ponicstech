@@ -22,7 +22,7 @@ const ContactForm = () => (
     <div className="col-lg-6 g-mb-50">
       
       <h2 className="h1 g-color-black g-font-weight-700 mb-4">How can we assist you?</h2>
-      <p className="g-font-size-18 mb-0">We are the manufacturer of idustrial-grade aeroponics equipment </p>
+      <p className="g-font-size-18 mb-0">We are the manufacturer of idustrial-grade aeroponic equipment </p>
       
     </div>
     <div className="col-lg-3 align-self-end ml-auto g-mb-50">
@@ -51,10 +51,22 @@ const ContactForm = () => (
         </div>
       </div>
     </div>
+    <section className="container g-bg-gray-light-v5 g-pa-30 g-my-25">
+  <div className="row">
+    <div className="col-md-9 align-self-center">
+      <h3 className="h4">Representative in the USA: <br /><br />Arthur Azatyan<br />
+        <a className="g-color-primary" href="mailto:kiselyov.uns@gmail.com"> cmo@ponics.tech </a>
+        or give a call
+        <a className="g-color-primary" href="tel:+17472207619"> +1(747)220-7619</a>
+      </h3>
+      <p className="lead g-mb-20 g-mb-0--md">Located in Los Angeles (UTC-7). Feel free to contact.</p>
+    </div>
+  </div>
+</section>
     <section className="container g-bg-gray-light-v5 g-pa-30">
   <div className="row">
     <div className="col-md-9 align-self-center">
-      <h3 className="h4">Representative in Ukraine:
+      <h3 className="h4">Representative in the Ukraine: <br /><br />Oleg Kiselev<br />
         <a className="g-color-primary" href="mailto:kiselyov.uns@gmail.com"> kiselyov.uns@gmail.com </a>
         or give a call
         <a className="g-color-primary" href="tel:+380504284574"> +38 050 4284574</a>

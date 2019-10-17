@@ -182,7 +182,7 @@ Has the specialty of a laboratory chemist.<br /></p>
         {/* User Image */}
         <div className="u-block-hover g-pos-rel g-mb-20">
           <figure>
-            <img className="img-fluid w-100 u-block-hover__main--zoom-v1" src={azatian} alt="Artur Azatian" />
+            <img className="img-fluid w-100 u-block-hover__main--zoom-v1" src={azatian} alt="Arthur Azatian" />
           </figure>
         </div>
         {/* User Image */}
@@ -198,7 +198,7 @@ Has the specialty of a laboratory chemist.<br /></p>
       <div className="col-lg-8">
         {/* User Details */}
         <div className="d-flex align-items-center justify-content-sm-between g-mb-5">
-          <h2 className="g-font-weight-300 g-mr-10">Arthur Azatyan</h2>
+          <h2 className="g-font-weight-300 g-mr-10">Arthur Azatian</h2>
           <ul className="list-inline mb-0">
             <li className="list-inline-item g-mx-2">
               <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://vk.com/keyzerov">

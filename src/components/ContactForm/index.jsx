@@ -54,8 +54,8 @@ const ContactForm = () => (
     <section className="container g-bg-gray-light-v5 g-pa-30 g-my-25">
   <div className="row">
     <div className="col-md-9 align-self-center">
-      <h3 className="h4">Representative in the USA: <br /><br />Arthur Azatyan<br />
-        <a className="g-color-primary" href="mailto:kiselyov.uns@gmail.com"> cmo@ponics.tech </a>
+      <h3 className="h4">Representative in the USA: <br /><br />Arthur Azatian<br />
+        <a className="g-color-primary" href="mailto:cmo@ponics.tech"> cmo@ponics.tech </a>
         or give a call
         <a className="g-color-primary" href="tel:+17472207619"> +1(747)220-7619</a>
       </h3>

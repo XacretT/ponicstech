@@ -201,21 +201,21 @@ Has the specialty of a laboratory chemist.<br /></p>
           <h2 className="g-font-weight-300 g-mr-10">Arthur Azatian</h2>
           <ul className="list-inline mb-0">
             <li className="list-inline-item g-mx-2">
-              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://vk.com/keyzerov">
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://vk.com/azatyan">
                 <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-vk" />
                 <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-vk" />
               </a>
             </li>
             <li className="list-inline-item g-mx-2">
-              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.linkedin.com/in/pavel-keyzerov-13893a162/">
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.linkedin.com/in/arthur86/">
                 <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-linkedin" />
                 <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-linkedin" />
               </a>
             </li>
             <li className="list-inline-item g-mx-2">
-              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.instagram.com/keizerof/">
-                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-instagram" />
-                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-instagram" />
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.facebook.com/arthur.azatyan.3">
+                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-facebook" />
+                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-facebook" />
               </a>
             </li>
           </ul>

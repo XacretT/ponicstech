@@ -6,9 +6,10 @@ import Layout from "../layout";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-import CompanySlider from '../components/CompanySlider'
-import CompanyTeam from '../components/CompanyTeam'
 import Header from '../components/Header'
+
+import michael from './teamphoto/michael.jpg'
+import michaelcv from './teamphoto/michael-cv-qr.png'
 
 class Index extends React.Component {
   render() {
@@ -17,165 +18,324 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="index-container">
-          <Helmet title="Arthur Azatian - Ponics Technologies" />
+          <Helmet title="Michael Kiselev - Ponics Technologies" />
 
           <SEO />
           <Header />
-  <CompanySlider />
-{/*About*/}
-<section className="g-bg-white">
-  <div className="container g-pt-100">
-    <div className="row justify-content-center">
-      <div className="col-lg-12">
-        {/* Heading */}
-        <div className="text-center">
-          <span className="d-block g-color-primary g-font-size-17 text-uppercase mb-5">Ponics Technologies</span>
-          <h2 className="h1 g-color-black g-font-weight-600 mb-5">Innovation, Integration, Quality</h2>
-        </div>
-        {/* End Heading */}
+          {/* Content */}
+          <section className="g-bg-secondary g-py-100">
+            <div className="container g-pt-100">
+              <div className="row">
+                <div className="col-lg-12">
+                  <figure className="u-shadow-v19 g-bg-white g-rounded-4 g-pa-20">
+                    <div className="d-flex justify-content-start">
+                    
+                      {/* Figure Image */}
+                      <div className="d-block">
+                        {/* Figure Info */}
+                        <div className="row">
+                          <div className="col-lg-4 g-mb-40 g-mb-0--lg">
+                            {/* User Image */}
+                            <div className="g-mb-20">
+                              <img className="img-fluid w-100" src={michael} alt="Michael Kiselev" />
+                            </div>
+                            {/* User Image */}
+                            {/* User Contact Buttons */}
+                            <a className="btn btn-block u-btn-outline-primary g-rounded-50 g-py-12 g-mb-10" href="mailto:ceo@ponics.tech">
+                              <i className="icon-envelop-letter g-pos-rel g-top-1 g-mr-5" />
+                              {' '}
+Write me a mail
+                            </a>
+                            <a className="btn btn-block u-btn-darkgray g-rounded-50 g-py-12 g-mb-10" href="tel:+79267920192">
+                              <i className="icon-call-in g-pos-rel g-top-1 g-mr-5" />
+                              {' '}
+Call Me
+                            </a>
+                            {/* End User Contact Buttons */}
+                          </div>
+                          <div className="col-lg-8">
+                            {/* User Details */}
+                            <div className="d-flex align-items-center justify-content-sm-between g-mb-5">
+                              <h2 className="g-font-weight-300 g-mr-10">Michael Kiselev</h2>
+                              <ul className="list-inline mb-0">
+                                <li className="list-inline-item g-mx-2">
+                                  <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.facebook.com/xacrett">
+                                    <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-facebook" />
+                                    <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-facebook" />
+                                  </a>
+                                </li>
+                                <li className="list-inline-item g-mx-2">
+                                  <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.linkedin.com/in/mihail-kiselov-28358193/">
+                                    <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-linkedin" />
+                                    <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-linkedin" />
+                                  </a>
+                                </li>
+                                <li className="list-inline-item g-mx-2">
+                                  <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.instagram.com/xacrett/">
+                                    <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-instagram" />
+                                    <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-instagram" />
+                                  </a>
+                                </li>
+                                <li className="list-inline-item g-mx-2">
+                                  <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://vk.com/xacrett">
+                                    <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-vk" />
+                                    <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-vk" />
+                                  </a>
+                                </li>
+                                <li className="list-inline-item g-mx-2">
+                                  <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://twitter.com/xacrett">
+                                    <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-twitter" />
+                                    <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-twitter" />
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            {/* End User Details */}
+                            {/* User Position */}
+                            <h4 className="h6 g-font-weight-300 g-mb-10">
+                              <i className="icon-badge g-pos-rel g-top-1 g-mr-5 g-color-gray-dark-v5" />
+                              {' '}
+Chief Executing Officer, Head Engineer at Ponics Technologies Inc.
+                            </h4>
+                            {/* End User Position */}
+                            {/* User Info */}
+                            <ul className="list-inline g-font-weight-300">
+                              <li className="list-inline-item g-mr-20">
+                                <i className="icon-location-pin g-pos-rel g-top-1 g-color-gray-dark-v5 g-mr-5" />
+                                {' '}
+Moscow, Russian Federation / Los Angeles, USA
+                              </li>
 
-        <div className="u-heading-v6-1 g-mb-20">
-          <h2 className="h3 u-heading-v6__title g-brd-primary">Innovative and solutions-based </h2>
-        </div>
+                              <li className="list-inline-item g-mr-20">
+                                <i className="icon-link g-pos-rel g-top-1 g-color-gray-dark-v5 g-mr-5" />  
+                                {' '}
+                                <a className="g-color-main g-color-primary--hover" href="http://ponics.tech/michael">ponics.tech/michael</a>
+                              </li>
+                            </ul>
+                            {/* End User Info */}
+                            <hr className="g-brd-gray-light-v4 g-my-20" />
+                            <p className="lead g-line-height-1_8">
+                            Experienced Chief Executive Officer with a demonstrated history of working in the farming industry. Strong business development professional skilled in Customer Service, Business Development, Strategic Planning, Marketing Strategy, and Strategy. 
 
-          <p className="lead mb-5">
-          As one of the leading innovators in the industry, Ponics Technologies is continuously developing trend-setting products. Throught the combination of unique scientific background, practical experience and great production 
-          capabilites Ponics Technologies is able to offer products that solve the most complex problems of agronomy and guarantee unrivaled product quality.
-          </p>
+                            </p>
 
-        <div className="u-heading-v6-1 g-mb-20">
-          <h2 className="h3 u-heading-v6__title g-brd-primary">Global presence</h2>
-        </div>
+                          </div>
+                        </div>
 
-          <p className="lead mb-5">
-          We at the Ponics Technologies are ready to deliver our products and services all over the world and provide timely quality support.
-          </p>
-        
-        <div className="u-heading-v6-1 g-mb-20">
-          <h2 className="h3 u-heading-v6__title g-brd-primary">Consistently committed to meeting customer requirements</h2>
-        </div>
+                      </div>
+                    </div>
+                    {/* CONTACT INFO */}
+                    <hr className="g-brd-gray-light-v4 g-my-15" />
+                    <div className="g-py-10">
+                      <div className="row">
+                        <div className="col-lg-2">
+                          <img className="img-fluid w-10 g-mt-0" src={michaelcv} alt="Michael Kiselev CV" />
+                        </div>
+                        <div className="col-lg-4">
+                          <ul className="list-unstyled g-color-gray-dark-v5 g-font-size-13 g-mb-0">
+                            <li className="g-mb-10">
+                              <i className="g-pos-rel g-mt-1 mr-2 icon-communication-062 u-line-icon-pro" />
+                              <a href="mailto:ceo@ponics.tech">ceo@ponics.tech</a>
+                            </li>
+                            <li className="g-mb-10">
+                              <i className="g-pos-rel g-top-1 mr-2 icon-electronics-005 u-line-icon-pro" />
+                              <a href="tel:+17472207619"><em className="g-font-style-normal">+7 (926) 792 01 92</em></a>
+                            </li>
+                            <li className="g-mb-10">
+                              <i className="g-pos-rel g-top-1 mr-2 fa fa-instagram" />
+                              <a href="https://www.instagram.com/ponicstech/"><em className="g-font-style-normal">instagram.com/ponicstech</em></a>
+                            </li>
+                            <li className="g-mb-10">
+                              <i className="g-pos-rel g-top-1 mr-2 fa fa-instagram" />
+                              <a href="https://www.instagram.com/cannastech/"><em className="g-font-style-normal">instagram.com/cannastech</em></a>
+                            </li>
+                            <li className="g-mb-10">
+                              <i className="g-pos-rel g-top-1 mr-2 fa fa-wifi" />
+                              <a href="http://xacrett.com"><em className="g-font-style-normal">http://xacrett.com</em></a>
+                            </li>
 
-          <p className="lead mb-5">
-          Ponics Technologies works tirelessly on the operating efficiency and excellence so as to better meet your demands and strengthen your growing capabilities.
-          </p>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    {/* Experience */}
+                    <hr className="g-brd-gray-light-v4 g-my-15" />
+                    <div className="card border-0 rounded-0 g-mb-40">
+                      {/* Panel Header */}
+                      <div className="card-header d-flex align-items-center justify-content-between g-bg-gray-light-v5 border-0 g-mb-15">
+                        <h3 className="h6 mb-0">
+                          <i className="icon-briefcase g-pos-rel g-top-1 g-mr-5" />
+                          {' '}
+Experience
+                        </h3>
+                      </div>
+                      {/* End Panel Header */}
+                      {/* Panel Body */}
+                      <div className=" g-pa-0 ">
+                        <ul className="row u-timeline-v2-wrap list-unstyled">
+                        <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                          <div className="row">
+                              {/* Timeline Date */}
+                              <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                                <h4 className="h5 g-font-weight-300">Cheif Executive Officer</h4>
+                                <h5 className="h6 g-font-weight-300 mb-0">2019-Present</h5>
+                              </div>
+                              {/* End Timeline Date */}
+                              {/* Timeline Content */}
+                              <div className="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                                {/* Timeline Dot */}
+                                <div className="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                                  <i className="d-block g-width-18 g-height-18 g-bg-primary g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle" />
+                                </div>
+                                {/* End Timeline Dot */}
+                                <article className="g-pa-10--md">
+                                  <h3 className="h4 g-font-weight-300">Ponics Technologies Inc.</h3>
+                                  <p className="mb-0">
+                                  Ponics Technologies is a high-end industrial aeroponics system developer.
+                                  </p>
+                                </article>
+                              </div>
+                              {/* End Timeline Content */}
+                            </div>
+                        </li>
+                          <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                          <div className="row">
+                              {/* Timeline Date */}
+                              <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                                <h4 className="h5 g-font-weight-300">Head of Economic Department</h4>
+                                <h5 className="h6 g-font-weight-300 mb-0">2017</h5>
+                              </div>
+                              {/* End Timeline Date */}
+                              {/* Timeline Content */}
+                              <div className="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                                {/* Timeline Dot */}
+                                <div className="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                                  <i className="d-block g-width-18 g-height-18 g-bg-primary g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle" />
+                                </div>
+                                {/* End Timeline Dot */}
+                                <article className="g-pa-10--md">
+                                  <h3 className="h4 g-font-weight-300">JSC Breeding Farm "Chulkovskoe"</h3>
+                                  <p className="mb-0">
+                                 Agronomy planning and field planting
 
-        {/* Heading */}
-        <div className="text-center">
-          <h2 className="h1 g-color-black g-font-weight-600 mb-5">Advantages</h2>
-        </div>
-        {/* End Heading */}
+                                  </p>
+                                </article>
+                              </div>
+                              {/* End Timeline Content */}
+                            </div>
+                        </li>
+                          <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                            <div className="row">
+                              {/* Timeline Date */}
+                              <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                                <h4 className="h5 g-font-weight-300">Head Engineer</h4>
+                                <h5 className="h6 g-font-weight-300 mb-0">2014-2016</h5>
+                              </div>
+                              {/* End Timeline Date */}
+                              {/* Timeline Content */}
+                              <div className="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                                {/* Timeline Dot */}
+                                <div className="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                                  <i className="d-block g-width-18 g-height-18 g-bg-primary g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle" />
+                                </div>
+                                {/* End Timeline Dot */}
+                                <article className="g-pa-10--md">
+                                  <h3 className="h4 g-font-weight-300">GoodFarm</h3>
+                                  <p className="mb-0">
+First Aeroponics farm located in Moscow Region. Reached Yield of up to 1,5tons of basil per month from a greenhouse area of 500sqm
 
-<div>
-  {/* Icon Blocks */}
-  <div className="row">
-    <div className="col-lg-4 u-icon-block--hover g-mb-40">
-      {/* Icon Blocks */}
-      <div className="media g-mb-15">
-        <div className="d-flex align-self-center mr-3">
-          <span className="u-icon-v3 g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
-            <i className="icon-education-037 u-line-icon-pro" />
-          </span>
-        </div>
-        <div className="media-body align-self-center">
-          <h3 className="h5 g-color-black mb-0">Innovative</h3>
-        </div>
-      </div>
-      <p className="g-color-gray-dark-v4">First industrial-grade equipment on the market</p>
-      {/* End Icon Blocks */}
-    </div>
-    <div className="col-lg-4 u-icon-block--hover g-mb-40">
-      {/* Icon Blocks */}
-      <div className="media g-mb-15">
-        <div className="d-flex align-self-center mr-3">
-          <span className="u-icon-v3 g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
-            <i className="icon-finance-145 u-line-icon-pro" />
-          </span>
-        </div>
-        <div className="media-body align-self-center">
-          <h3 className="h5 g-color-black mb-0">Quality</h3>
-        </div>
-      </div>
-      <p className="g-color-gray-dark-v4">Engineered and produced with high precise</p>
-      {/* End Icon Blocks */}
-    </div>
-    <div className="col-lg-4 u-icon-block--hover g-mb-40">
-      {/* Icon Blocks */}
-      <div className="media g-mb-15">
-        <div className="d-flex align-self-center mr-3">
-          <span className="u-icon-v3 g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
-            <i className="icon-education-141 u-line-icon-pro" />
-          </span>
-        </div>
-        <div className="media-body align-self-center">
-          <h3 className="h5 g-color-black mb-0">Sustainable</h3>
-        </div>
-      </div>
-      <p className="g-color-gray-dark-v4">All our products are made of recyclable materials</p>
-      {/* End Icon Blocks */}
-    </div>
-  </div>
-  {/* End Icon Blocks */}
-  {/* Icon Blocks */}
-  <div className="row">
-    <div className="col-lg-4 u-icon-block--hover g-mb-40">
-      {/* Icon Blocks */}
-      <div className="media g-mb-15">
-        <div className="d-flex align-self-center mr-3">
-          <span className="u-icon-v3 g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
-            <i className="icon-communication-032 u-line-icon-pro" />
-          </span>
-        </div>
-        <div className="media-body align-self-center">
-          <h3 className="h5 g-color-black mb-0">Support</h3>
-        </div>
-      </div>
-      <p className="g-color-gray-dark-v4">24/7 hotline for immediate support. Twitter, Discord and Slack are always online</p>
-      {/* End Icon Blocks */}
-    </div>
-    <div className="col-lg-4 u-icon-block--hover g-mb-40">
-      {/* Icon Blocks */}
-      <div className="media g-mb-15">
-        <div className="d-flex align-self-center mr-3">
-          <span className="u-icon-v3 g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
-            <i className="icon-science-039 u-line-icon-pro" />
-          </span>
-        </div>
-        <div className="media-body align-self-center">
-          <h3 className="h5 g-color-black mb-0">Service</h3>
-        </div>
-      </div>
-      <p className="g-color-gray-dark-v4">More than 96% spare parts are always available</p>
-      {/* End Icon Blocks */}
-    </div>
-    <div className="col-lg-4 u-icon-block--hover g-mb-40">
-      {/* Icon Blocks */}
-      <div className="media g-mb-15">
-        <div className="d-flex align-self-center mr-3">
-          <span className="u-icon-v3 g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
-            <i className="icon-finance-238 u-line-icon-pro" />
-          </span>
-        </div>
-        <div className="media-body align-self-center">
-          <h3 className="h5 g-color-black mb-0">Modern design</h3>
-        </div>
-      </div>
-      <p className="g-color-gray-dark-v4">Growing experience was never so convenient and easy</p>
-      {/* End Icon Blocks */}
-    </div>
-  </div>
-  {/* End Icon Blocks */}
-</div>
-  
-        
-      </div>
-    </div>
-    
-  </div>
-</section>
+                                  </p>
+                                </article>
+                              </div>
+                              {/* End Timeline Content */}
+                            </div>
+                          </li>
+                          <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                            <div className="row">
+                              {/* Timeline Date */}
+                              <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                                <h4 className="h5 g-font-weight-300">Deupty Manager of the Bank's affairs</h4>
+                                <h5 className="h6 g-font-weight-300 mb-0">2013-2014</h5>
+                              </div>
+                              {/* End Timeline Date */}
+                              {/* Timeline Content */}
+                              <div className="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                                {/* Timeline Dot */}
+                                <div className="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                                  <i className="d-block g-width-18 g-height-18 g-bg-primary g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle" />
+                                </div>
+                                {/* End Timeline Dot */}
+                                <article className="g-pa-10--md">
+                                  <h3 className="h4 g-font-weight-300">PAT "Bank "Sofiyskii"</h3>
+                                  <p className="mb-0">
 
-{/*End About*/}
+                                  </p>
+                                </article>
+                              </div>
+                              {/* End Timeline Content */}
+                            </div>
+                          </li>
+                          <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                            <div className="row">
+                              {/* Timeline Date */}
+                              <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                                <h4 className="h5 g-font-weight-300">Senior Researcher</h4>
+                                <h5 className="h6 g-font-weight-300 mb-0">2019-2013</h5>
+                              </div>
+                              {/* End Timeline Date */}
+                              {/* Timeline Content */}
+                              <div className="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                                {/* Timeline Dot */}
+                                <div className="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                                  <i className="d-block g-width-18 g-height-18 g-bg-primary g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle" />
+                                </div>
+                                {/* End Timeline Dot */}
+                                <article className="g-pa-10--md">
+                                  <h3 className="h4 g-font-weight-300">Academy of Sciences of Ukraine</h3>
+                                  <p className="mb-0">
+Paton Welding Institute, Development of lithium-containing electrode coatings for welding of tanks of atomic reactors with a low content of diffusion hydrogen
 
-  <CompanyTeam />
+                                  </p>
+                                </article>
+                              </div>
+                              {/* End Timeline Content */}
+                            </div>
+                          </li>
+                          <li className="col-md-12">
+                            <div className="row">
+                              {/* Timeline Date */}
+                              <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                                <h4 className="h5 g-font-weight-300">Graduated</h4>
+                                <h5 className="h6 g-font-weight-300 mb-0">2005 - 2011</h5>
+                              </div>
+                              {/* End Timeline Date */}
+                              {/* Timeline Content */}
+                              <div className="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                                {/* Timeline Dot */}
+                                <div className="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                                  <i className="d-block g-width-18 g-height-18 g-bg-primary g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle" />
+                                </div>
+                                {/* End Timeline Dot */}
+                                <article className="g-pa-10--md">
+                                  <h3 className="h4 g-font-weight-300">National Technical University of Ukraine "KPI"</h3>
+                                  <p className="mb-0">Master's degree, Chemical Engineering</p>
+                                </article>
+                              </div>
+                              {/* End Timeline Content */}
+                            </div>
+                          </li>
+                        </ul>
+                          
+                      </div>
+                      {/* End Panel Body */}
+                    </div>
+
+                  </figure>
+
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
         
       </Layout>

@@ -127,7 +127,7 @@ The second part of my life I dedicate to motor racing and everything around it. 
                           <ul className="list-unstyled g-color-gray-dark-v5 g-font-size-13 g-mb-0">
                             <li className="g-mb-10">
                               <i className="g-pos-rel g-mt-1 mr-2 icon-communication-062 u-line-icon-pro" />
-                              <a href="#">cmo@ponics.tech</a>
+                              <a href="mailto:cmo@ponics.tech">cmo@ponics.tech</a>
                             </li>
                             <li>
                               <i className="g-pos-rel g-top-1 mr-2 icon-electronics-005 u-line-icon-pro" />

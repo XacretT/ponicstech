@@ -50,7 +50,7 @@ const Header = () => (
         Mon-Fri: 9 AM - 5 PM
 </div> */}
       
-      <div className="col-auto g-pos-rel">
+          <div className="col-auto g-pos-rel">
             <ul className="list-inline g-overflow-hidden g-pt-1 g-mx-minus-4 mb-0">
               <li className="list-inline-item g-mx-4">
                 <i className="fa fa-language g-font-size-18 g-valign-middle g-color-primary g-pos-rel g-top-minus-2 g-mr-10" />

@@ -24,6 +24,7 @@ class Index extends React.Component {
           </Helmet>
           <SEO />
           <Header />
+          <a name="home"></a>
           <CompanySlider2 />
           {/* About */}
           <section className="g-bg-white">
@@ -38,13 +39,13 @@ class Index extends React.Component {
                       <h3 className="h5 g-color-black g-font-weight-600 mb-4">Links</h3>
                       <ul className="list-unstyled g-font-size-13 mb-0">
                         <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="#">
+                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="/investor#home">
                             <i className="mr-2 fa fa-angle-right" />
                               Home
                           </a>
                         </li>
                         <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="#">
+                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="/investor#innovation">
                             <i className="mr-2 fa fa-angle-right" />
                               Innovation
                           </a>
@@ -74,6 +75,7 @@ class Index extends React.Component {
                 </div>
                 <div className="col-lg-9 order-lg-2 g-pl-30">
                   {/* Heading */}
+                  <a name="innovation"></a>
                   <div className="text-center">
                     <span className="d-block g-color-primary g-font-size-17 text-uppercase mb-5">Ponics Technologies</span>
                     <h2 className="h1 g-color-black g-font-weight-600 mb-5">Innovation, Integration, Quality</h2>
@@ -110,7 +112,7 @@ class Index extends React.Component {
                     <h2 className="h1 g-color-black g-font-weight-600 mb-5">Advantages</h2>
                   </div>
                   {/* End Heading */}
-
+                  
                   <div>
                     {/* Icon Blocks */}
                     <div className="row">

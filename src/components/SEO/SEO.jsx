@@ -70,7 +70,7 @@ class SEO extends Component {
     return (
       <Helmet>
         {/* General tags */}
-        <meta name="description" content={description} />
+        {/*<meta name="description" content={description} />*/} {/* Если это не закомментить, то не получается поменять дескрипшены у индивидуальных страниц */}
         <meta name="image" content={image} />
 
         {/* Schema.org tags */}

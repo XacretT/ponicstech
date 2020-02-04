@@ -15,8 +15,10 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="index-container">
-          <Helmet title="Ponics Technologies Contact information" />
-
+          
+          <Helmet title="Ponics Technologies Contact information">
+            <meta name="description" content="Ponics Technologies Inc. contact information and location" />
+          </Helmet>
           <SEO />
           <Header />
           <ContactForm />

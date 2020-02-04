@@ -37,6 +37,8 @@ export default function HTML(props) {
   <script src={withPrefix('/assets/vendor/dzsparallaxer/dzsparallaxer.js')}></script>
   <script src={withPrefix('/assets/vendor/dzsparallaxer/dzsscroller/scroller.js')}></script>
   <script src={withPrefix('/assets/vendor/dzsparallaxer/advancedscroller/plugin.js')}></script>
+  <script src={withPrefix('/assets/vendor/masonry/dist/masonry.pkgd.min.js')}></script>
+  <script src={withPrefix('/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}></script>
   <script src={withPrefix('/assets/vendor/fancybox/jquery.fancybox.min.js')}></script>
   <script src={withPrefix('/assets/vendor/typedjs/typed.min.js')}></script>
   <script src={withPrefix('/assets/vendor/circles/circles.min.js')}></script>
@@ -52,6 +54,7 @@ export default function HTML(props) {
   <script src={withPrefix('/assets/js/components/hs.counter.js')}></script>
   <script src={withPrefix('/assets/js/components/hs.chart-pie.js')}></script>
   <script src={withPrefix('/assets/js/components/hs.go-to.js')}></script>
+  <script src={withPrefix('/assets/js/components/hs.sticky-block.js')}></script>
   <script src={withPrefix('/assets/vendor/jquery.countdown.min.js')}></script>
   <script src={withPrefix('/assets/js/components/hs.countdown.js')}></script>
   <script src={withPrefix('/assets/js/components/hs.dropdown.js')}></script>
@@ -72,7 +75,7 @@ export default function HTML(props) {
   <script src={withPrefix('/assets/js/components/hs.modal-window.js')}></script>
 
   <script
-  dangerouslySetInnerHTML={{
+    dangerouslySetInnerHTML={{
     __html: `
     
     $(document).on('ready', function () {
@@ -87,79 +90,74 @@ export default function HTML(props) {
         secondsElSelector: '.js-cd-seconds'
       });
     });
-
-
+  
     $(document).on('ready', function () {
-      // initialization of autonomous popups
-      $.HSCore.components.HSModalWindow.init('.js-autonomous-popup', {
-        autonomous: true
-      });
-    });
-
-
-    $(document).on('ready', function () {
+  
       // initialization of horizontal progress bars
       var horizontalProgressBars = $.HSCore.components.HSProgressBar.init('.js-hr-progress-bar', {
-        direction: 'horizontal',
-        indicatorSelector: '.js-hr-progress-bar-indicator'
+          direction: 'horizontal',
+          indicatorSelector: '.js-hr-progress-bar-indicator'
       });
-    });
-    
-    $(document).on('ready', function () {
-
+  
+      // initialization of autonomous popups
+      $.HSCore.components.HSModalWindow.init('.js-autonomous-popup', {
+          autonomous: true
+      });
+  
       // initialization of HSDropdown component
-      $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
-        afterOpen: function(){
-          $(this).find('input[type="search"]').focus();
-        }
-      });
-
+      $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'));
+  
+      // initialization of sticky blocks
+        setTimeout(function() {
+          $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+        }, 300);
+        console.log("sticky blocks ");
       // initialization of carousel
       $.HSCore.components.HSCarousel.init('.js-carousel');
-
+  
       // initialization of CopyToClipboardButton
       new ClipboardJS('.btn');
-
+  
       // initialization of popovers
       $('[data-toggle="popover"]').popover();
-
+  
       
       // initialization of tabs
       $.HSCore.components.HSTabs.init('[role="tablist"]');
-
+  
       // initialization of popups
       $.HSCore.components.HSPopup.init('.js-fancybox');
-
+  
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
     });
-
+  
    $(document).on('ready', function () {
     // initialization of video on background
     $.HSCore.helpers.HSBgVideo.init('.js-bg-video')
-
+  
     // initialization of tabs
     $.HSCore.components.HSTabs.init('[role="tablist"]');
-
+  
     // initialization of header height offset
     $.HSCore.helpers.HSHeightCalc.init();
-
+  
     // initialization of scroll animation
     $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
-
+  
     // initialization of counters
     var counters = $.HSCore.components.HSCounter.init('[class*="js-counter"]');
-
+  
     // initialization of chart pies with rtl option
     var rtlItems = $.HSCore.components.HSChartPie.init('.js-pie-rtl', {
       rtl: true
     });
-
+  
     // initialization of rating
     $.HSCore.components.HSRating.init($('.js-rating'), {
       spacing: 4
     });
-
+  
     // initialization of popups with media
     $.HSCore.components.HSPopup.init('.js-fancybox-media', {
       helpers: {
@@ -171,7 +169,7 @@ export default function HTML(props) {
         }
       }
     });
-
+  
     // initialization of text animation (typing)
     $(".u-text-animation.u-text-animation--typing").typed({
       strings: [
@@ -183,16 +181,16 @@ export default function HTML(props) {
       loop: true,
       backDelay: 1500
     });
-
+  
     // initialization of go to
     $.HSCore.components.HSGoTo.init('.js-go-to');
   });
-
+  
   $(window).on('load', function () {
     // initialization of header
     $.HSCore.components.HSHeader.init($('#js-header'));
     $.HSCore.helpers.HSHamburgers.init('.hamburger');
-
+  
     // initialization of HSMegaMenu component
     $('.js-mega-menu').HSMegaMenu({
       event: 'hover',
@@ -200,7 +198,7 @@ export default function HTML(props) {
       breakpoint: 991
     });
   });
-
+  
   $(window).on('resize', function () {
     setTimeout(function () {
       $.HSCore.components.HSTabs.init('[role="tablist"]');
@@ -209,7 +207,7 @@ export default function HTML(props) {
 
         `,
   }}
-/>
+  />
 
       </body>
     </html>

@@ -121,9 +121,10 @@ The second part of my life I dedicate to motor racing and everything around it. 
                     <div className="g-py-10">
                       <div className="row">
                         <div className="col-lg-2">
+                          Scan with your phone's camera to add CV
                           <img className="img-fluid w-10 g-mt-0" src={arthurcv} alt="Arthur Azatian CV" />
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-3">
                           <ul className="list-unstyled g-color-gray-dark-v5 g-font-size-13 g-mb-0">
                             <li className="g-mb-10">
                               <i className="g-pos-rel g-mt-1 mr-2 icon-communication-062 u-line-icon-pro" />
@@ -134,6 +135,28 @@ The second part of my life I dedicate to motor racing and everything around it. 
                               <a href="tel:+17472207619"><em className="g-font-style-normal">+1 (747) 220 76 19</em></a>
                             </li>
                           </ul>
+                        </div>
+                        <div className="col-lg-7">
+                          <form className="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30" method="POST" action="https://getform.io/f/8566f355-9617-499d-964a-58466ba6fc6a">
+                            <h4 className="h6 g-font-weight-700 g-mb-20">Write me a direct message</h4>
+                            {/* Text Input with Left Appended Icon */}
+                            <div className="form-group g-mb-20">
+                              <div className="input-group g-brd-primary--focus">
+                                <div className="input-group-prepend">
+                                  <span className="input-group-text rounded-0 g-bg-white g-color-gray-light-v1"><i className="icon-user-follow" /></span>
+                                </div>
+                                <input className="form-control form-control-md border-left-0 rounded-0 pl-0" type="text" name="TOPIC" placeholder="Message topic" />
+                              </div>
+                            </div>
+                            {/* End Text Input with Left Appended Icon */}
+                            {/* Text Input with Both Appended Icon */}
+                            <div className="form-group g-mb-20">
+                              <textarea id="inputGroup2_1" className="form-control form-control-md rounded-0" rows="3" name="MESSAGE" placeholder="Write here your message" />
+                            </div>
+                            <div className="form-group g-mb-20">
+                              <button className="btn u-btn-primary g-mr-10 g-mb-15" type="submit">Send</button>
+                            </div>
+                          </form>
                         </div>
                       </div>
                     </div>
@@ -152,8 +175,8 @@ Experience
                       {/* Panel Body */}
                       <div className=" g-pa-0 ">
                         <ul className="row u-timeline-v2-wrap list-unstyled">
-                        <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
-                          <div className="row">
+                          <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                            <div className="row">
                               {/* Timeline Date */}
                               <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
                                 <h4 className="h5 g-font-weight-300">Cheif Marketing Officer</h4>
@@ -176,9 +199,9 @@ Experience
                               </div>
                               {/* End Timeline Content */}
                             </div>
-                        </li>
+                          </li>
                           <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
-                          <div className="row">
+                            <div className="row">
                               {/* Timeline Date */}
                               <div className="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
                                 <h4 className="h5 g-font-weight-300">Education</h4>
@@ -202,7 +225,7 @@ General Business Studies with Concentration in Real Estate
                               </div>
                               {/* End Timeline Content */}
                             </div>
-                        </li>
+                          </li>
                           <li className="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
                             <div className="row">
                               {/* Timeline Date */}

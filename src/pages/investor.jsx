@@ -177,7 +177,7 @@ class Index extends React.Component {
                   <div className="text-center u-heading-v8-1 g-mb-20">
                     <h2 className="h1 text-uppercase u-heading-v8__title g-font-weight-700 mb-0">
 Business
-                      <strong className="g-bg-gray-dark-v2 g-color-primary">Strategy</strong>
+                      <strong className="g-bg-gray-dark-v2 g-color-primary">Structure</strong>
                       <img src={BS} className="g-pt-50"alt="Ponics Technologies Inc. Business Strategy" width="100%" />
                     </h2>
                   </div>

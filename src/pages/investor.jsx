@@ -10,6 +10,8 @@ import CompanySlider2 from '../components/CompanySlider2'
 
 import Header from '../components/Header'
 
+import BS from './investor/bs.svg'
+
 class Index extends React.Component {
   render() {
     // eslint-disable-next-line react/destructuring-assignment
@@ -24,58 +26,16 @@ class Index extends React.Component {
           </Helmet>
           <SEO />
           <Header />
-          <a name="home"></a>
+          <a name="home" />
           <CompanySlider2 />
           {/* About */}
           <section className="g-bg-white">
             <div className="container g-pt-100">
               <div className="row justify-content-center">
-      
-                <div className="col-lg-2 order-lg-1 g-brd-right--lg g-brd-gray-light-v4 g-mb-80">
-                  <div className="">
-                    {/* Links */}
-                    <div className="g-mb-50 js-sticky-block g-sticky-block--lg g-pt-50" id="stickyblock-start" data-start-point="#stickyblock-start" data-end-point="#stickyblock-end" style={{top: 0, width: '234.016px', height: '1002.38px'}}>
-                      
-                      <h3 className="h5 g-color-black g-font-weight-600 mb-4">Links</h3>
-                      <ul className="list-unstyled g-font-size-13 mb-0">
-                        <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="/investor#home">
-                            <i className="mr-2 fa fa-angle-right" />
-                              Home
-                          </a>
-                        </li>
-                        <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="/investor#innovation">
-                            <i className="mr-2 fa fa-angle-right" />
-                              Innovation
-                          </a>
-                        </li>
-                        <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="#">
-                            <i className="mr-2 fa fa-angle-right" />
-                            Who we are looking for
-                          </a>
-                        </li>
-                        <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded g-py-8" href="#">
-                            <i className="mr-2 fa fa-angle-right" />
-                              Business Strategy
-                          </a>
-                        </li>
-                        <li>
-                          <a className="d-block u-link-v5 g-color-gray-dark-v4 rounded  g-py-8" href="#">
-                            <i className="mr-2 fa fa-angle-right" />
-                              Untold Stories
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    {/* End Links */}
-                  </div>
-                </div>
-                <div className="col-lg-9 order-lg-2 g-pl-30">
+
+                <div className="col-lg-12 order-lg-2 g-pl-30">
                   {/* Heading */}
-                  <a name="innovation"></a>
+                  <a name="innovation" />
                   <div className="text-center">
                     <span className="d-block g-color-primary g-font-size-17 text-uppercase mb-5">Ponics Technologies</span>
                     <h2 className="h1 g-color-black g-font-weight-600 mb-5">Innovation, Integration, Quality</h2>
@@ -214,7 +174,14 @@ class Index extends React.Component {
                     {/* End Icon Blocks */}
                   </div>
   
-        
+                  <div className="text-center u-heading-v8-1 g-mb-20">
+                    <h2 className="h1 text-uppercase u-heading-v8__title g-font-weight-700 mb-0">
+Business
+                      <strong className="g-bg-gray-dark-v2 g-color-primary">Strategy</strong>
+                      <img src={BS} className="g-pt-50"alt="Ponics Technologies Inc. Business Strategy" width="100%" />
+                    </h2>
+                  </div>
+
                 </div>
               </div>
     

@@ -11,6 +11,7 @@ import CompanySlider2 from '../components/CompanySlider2'
 import Header from '../components/Header'
 
 import BS from './investor/bs.svg'
+import BDS from './investor/bds.svg'
 
 class Index extends React.Component {
   render() {
@@ -173,12 +174,19 @@ class Index extends React.Component {
                     </div>
                     {/* End Icon Blocks */}
                   </div>
-  
+                  {/*
                   <div className="text-center u-heading-v8-1 g-mb-20">
                     <h2 className="h1 text-uppercase u-heading-v8__title g-font-weight-700 mb-0">
 Business
                       <strong className="g-bg-gray-dark-v2 g-color-primary">Structure</strong>
                       <img src={BS} className="g-pt-50"alt="Ponics Technologies Inc. Business Strategy" width="100%" />
+                    </h2>
+                  </div>*/}
+                  <div className="text-center u-heading-v8-1 g-mb-20">
+                    <h2 className="h1 text-uppercase u-heading-v8__title g-font-weight-700 mb-0">
+Business Development
+                      <strong className="g-bg-gray-dark-v2 g-color-primary">Strategy</strong>
+                      <img src={BDS} className="g-pt-50"alt="Ponics Technologies Inc. Business Development Strategy" width="100%" />
                     </h2>
                   </div>
 

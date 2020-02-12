@@ -76,11 +76,11 @@ class Footer extends Component {
                       </span>
                     </div>
                     <p className="mb-0">
-                      Moscow 
+                      Los Angeles 
                       {' '}
                       <br />
                       {' '}
-                      Russian Federation
+                      USA
                     </p>
                   </div>
           

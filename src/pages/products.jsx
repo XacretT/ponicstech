@@ -19,7 +19,9 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="index-container">
-          <Helmet title={config.siteTitle} />
+        <Helmet title="Ponics Technologies Products">
+            <meta name="description" content="Ponics Technologies Inc. Aeroponics and Hydroponics Products. Growing systems, light, climate, automation - all in one place, smooth-running and 100% integrated" />
+          </Helmet>
 
           <SEO />
           <Header />

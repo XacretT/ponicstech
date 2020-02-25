@@ -1,19 +1,49 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from "gatsby"
 // import Helmet from "react-helmet";
 import logo from "./logo-ponics-technologies.svg";
 
 
 
+class Header extends Component {
+  
+      // constructor to set state and bind "this"
+      constructor(props) {
+        super(props);
+        this.state = {showModal: false};
+        this.handleClick = this.handleClick.bind(this);
+      }
+  
+    // function to handle the click
+     handleClick() {
+      this.setState(prevState => ({
+        showModal: !prevState.showModal
+      }));
+    }
 
-const Header = () => (
-
+  render() {
+    const modal = (
+      <ul id="languages-dropdown-2" className="list-unstyled g-pos-abs g-left-0 g-bg-black g-width-160 g-pb-5 g-mt-10 u-dropdown--css-animation" aria-labelledby="languages-dropdown-invoker-2" style={{animationDuration: '100ms', left: 0}}>
+        <li>
+          <Link className="d-block g-color-white g-color-primary--hover g-text-underline--none--hover g-py-5 g-px-20" to="/">English</Link>
+        </li>
+        <li>
+          <Link className="d-block g-color-white g-color-primary--hover g-text-underline--none--hover g-py-5 g-px-20" to="/ru/">Русский</Link>
+        </li>
+      </ul>
+    );
+return (
   <header id="js-header" className="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="300">
     <div className="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-transition-0_3 g-py-10">
       <div className="container">
         <div className="row flex-column flex-sm-row justify-content-between align-items-center text-uppercase g-font-weight-600 g-color-white g-font-size-12 g-mx-0--lg">
           <div className="col-auto">
             <ul className="list-inline mb-0">
+              <li className="list-inline-item">
+                <a href="https://www.linkedin.com/company/ponicstech/" className="g-color-white g-color-primary--hover g-pa-3">
+                  <i className="fa fa-linkedin" />
+                </a>
+              </li>
               <li className="list-inline-item">
                 <a href="https://www.facebook.com/ponics.tech" className="g-color-white g-color-primary--hover g-pa-3">
                   <i className="fa fa-facebook" />
@@ -41,6 +71,14 @@ const Header = () => (
               </li>
             </ul>
           </div>
+          <div className="col-auto">
+            <a href="tel:+17472207619">
+              <i className="fa fa-phone g-font-size-18 g-valign-middle g-color-primary g-mr-10 g-mt-minus-2" />
+              +1(747)2207619
+            </a>
+            {' '}
+&nbsp;&nbsp; Arthur
+          </div>
           {/* <div className="col-auto">
         <i className="fa fa-phone g-font-size-18 g-valign-middle g-color-primary g-mr-10 g-mt-minus-2" />
         8 800 1234 4321
@@ -50,40 +88,23 @@ const Header = () => (
         Mon-Fri: 9 AM - 5 PM
 </div> */}
       
-          <div className="col-auto g-pos-rel">
+          {/* <div className="col-auto g-pos-rel">
             <ul className="list-inline g-overflow-hidden g-pt-1 g-mx-minus-4 mb-0">
               <li className="list-inline-item g-mx-4">
                 <i className="fa fa-language g-font-size-18 g-valign-middle g-color-primary g-pos-rel g-top-minus-2 g-mr-10" />
-                <a
-                  href="#"
+                 <Link 
+                  to="/"
                   id="languages-dropdown-invoker-2"
                   className="g-color-white g-color-primary--hover g-text-underline--none--hover" 
-                  aria-controls="languages-dropdown-2"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  data-dropdown-event="click"
-                  data-dropdown-target="#languages-dropdown-2" 
-                  data-dropdown-type="css-animation"
-                  data-dropdown-duration="{300}"
-                  data-dropdown-hide-on-scroll="false"
-                  data-dropdown-animation-in="fadeIn"
-                  data-dropdown-animation-out="fadeOut"
+                  onClick={this.handleClick}
                 >
                   Language
-                </a>
+                </Link> 
 
-                
-                <ul id="languages-dropdown-2" className="list-unstyled g-pos-abs g-left-0 g-bg-black g-width-160 g-pb-5 g-mt-10 u-dropdown--css-animation u-dropdown--hidden" aria-labelledby="languages-dropdown-invoker-2" style={{animationDuration: '100ms', left: 0}}>
-                  <li>
-                    <Link className="d-block g-color-white g-color-primary--hover g-text-underline--none--hover g-py-5 g-px-20" to="/">English</Link>
-                  </li>
-                  <li>
-                    <Link className="d-block g-color-white g-color-primary--hover g-text-underline--none--hover g-py-5 g-px-20" to="/ru/">Русский</Link>
-                  </li>
-                </ul>
+                {this.state.showModal ? modal : ''} 
               </li>
             </ul>
-          </div>
+          </div> */}
 
 
           
@@ -116,36 +137,34 @@ const Header = () => (
           <div className="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
             <ul className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
 
-              <li className="nav-item g-mx-20--lg">
-                <Link to="/" className="nav-link px-0">Home</Link>
-                
-              </li>
+
               <li className="nav-item g-mx-20--lg">
                 <Link to="/products/" className="nav-link px-0">Products</Link>
-                
-
               </li>
               <li className="nav-item g-mx-20--lg">
-                {/* add active in className */}
+                <Link to="/projects/" className="nav-link px-0">Case Study</Link>
+              </li>
+              <li className="nav-item g-mx-20--lg">
                 <Link to="/investor/" className="nav-link px-0">Investor Centre</Link>
-                
               </li>
-              <li className="nav-item g-mx-20--lg">
-                {/* add active in className */}
-                <Link to="/company/" className="nav-link px-0">Company</Link>
-                
+
+              <li className="nav-item dropdown g-mx-20--lg">
+                <a href="#" className="nav-link dropdown-toggle g-px-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</a>
+                <ul className="dropdown-menu rounded-0 g-text-transform-none g-brd-none g-brd-top g-brd-primary g-brd-top-2 g-mt-20 g-mt-10--lg--scrolling u-shadow-v11 g-text-transform-none font-weight-normal">
+                  <li className="dropdown-item">
+                    <Link to="/company/" className="nav-link px-0">About Company</Link>
+                  </li>
+                  <li className="dropdown-item">
+                    <a href="https://medium.com/@ponicstech" className="nav-link px-0">Blog</a>
+                  </li>
+                  <li className="dropdown-item">
+                    <Link to="/contactus/" className="nav-link px-0">Contact Us</Link> 
+                  </li>
+                </ul>
               </li>
-              <li className="nav-item g-mx-20--lg">
-                <a href="https://medium.com/@ponicstech" className="nav-link px-0">
-Blog
-                
-                </a>
-              </li>
-              <li className="nav-item g-mx-20--lg">
-                <Link to="/contactus/" className="nav-link px-0">Contact Us</Link>
-                
               
-              </li>
+
+
             </ul>
           </div>
             
@@ -153,6 +172,7 @@ Blog
       </nav>
     </div>
   </header>
-)
+ ) }
+};
 
 export default Header;

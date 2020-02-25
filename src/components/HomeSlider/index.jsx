@@ -1,7 +1,7 @@
 import React, { Component }  from 'react'
 import { Link } from "gatsby"
-import img15 from './img15.webp'
-import img16 from './img16.webp'
+import img15 from './img15.png'
+import img16 from './img16.png'
 
 
 class HomeSlider extends Component {

@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundimg from './vegalife.webp'
+import backgroundimg from './vegalife.jpg'
 
 
 const VegaLife = () => (

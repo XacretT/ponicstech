@@ -1,5 +1,5 @@
 import React from 'react'
-import mamanatura from './mamanatura.webp'
+import mamanatura from './mamanatura.jpg'
 
 
 const Mamanatura = () => (

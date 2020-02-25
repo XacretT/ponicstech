@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundimg from './img14.webp'
+import backgroundimg from './img14.jpg'
 
 
 const ProductsSlider = () => (

@@ -19,7 +19,7 @@ See more
         </div>
       </div>
       <div className="col-md-6">
-        <div className="g-flex-centered g-min-height-600 g-bg-secondary text-center">
+        <div className="g-flex-centered g-min-height-600 g-bg-gray-light-v5 text-center">
           <div className="u-shadow-v19 g-bg-white g-pa-25">
             <img className="img-fluid u-shadow-v21" width="400" src={backgroundimg} alt="VegaLife by Ponics Technologies" />
           </div>

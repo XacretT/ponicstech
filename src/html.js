@@ -37,7 +37,7 @@ export default function HTML(props) {
   <script src={withPrefix('/assets/vendor/dzsparallaxer/dzsparallaxer.js')}></script>
   <script src={withPrefix('/assets/vendor/dzsparallaxer/dzsscroller/scroller.js')}></script>
   <script src={withPrefix('/assets/vendor/dzsparallaxer/advancedscroller/plugin.js')}></script>
-  <script src={withPrefix('/assets/vendor/masonry/dist/masonry.pkgd.min.js')}></script>
+  <script src={withPrefix('/assets/vendor/masonry/dist/masonry.pkgd.js')}></script>
   <script src={withPrefix('/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}></script>
   <script src={withPrefix('/assets/vendor/fancybox/jquery.fancybox.min.js')}></script>
   <script src={withPrefix('/assets/vendor/typedjs/typed.min.js')}></script>
@@ -78,8 +78,17 @@ export default function HTML(props) {
   <script
     dangerouslySetInnerHTML={{
     __html: `
-    
-    $(document).on('ready', function () {
+    $( document ).ready(function() {
+      $('.masonry-grid').imagesLoaded().then(function () {
+        $('.masonry-grid').masonry({
+          columnWidth: '.masonry-grid-sizer',
+          itemSelector: '.masonry-grid-item',
+          percentPosition: true
+        });
+      });
+  });
+
+    $(document).on('load', function () {
 
       // initialization of masonry
       $('.masonry-grid').imagesLoaded().then(function () {

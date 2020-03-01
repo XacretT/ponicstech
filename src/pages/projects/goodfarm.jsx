@@ -107,40 +107,38 @@ Growing: basil, arugula, salads
             </div>
           </div>
           {/* Cube Portfolio Blocks - Content */}
-
+          <div className="row ">
+  <div className="col-md-2">
+    <a className="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-transparent--hover--after" href="javascript:;" data-fancybox="lightbox-gallery--14" data-src={img1} data-caption="GoodFarm by Ponics Technologies">
+      <img className="img-fluid u-block-hover__main--zoom-v1" src={img1} alt="GoodFarm by Ponics Technologies" />
+    </a>
+  </div>
+  <div className="col-md-2">
+    <a className="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-transparent--hover--after" href="javascript:;" data-fancybox="lightbox-gallery--14" data-src={img2} data-caption="GoodFarm by Ponics Technologies">
+      <img className="img-fluid u-block-hover__main--zoom-v1" src={img2} alt="GoodFarm by Ponics Technologies" />
+    </a>
+  </div>
+  <div className="col-md-2">
+    <a className="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-transparent--hover--after" href="javascript:;" data-fancybox="lightbox-gallery--14" data-src={img3} data-caption="GoodFarm by Ponics Technologies">
+      <img className="img-fluid u-block-hover__main--zoom-v1" src={img3} alt="GoodFarm by Ponics Technologies" />
+    </a>
+  </div>
+  <div className="col-md-2">
+    <a className="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-transparent--hover--after" href="javascript:;" data-fancybox="lightbox-gallery--14" data-src={img4} data-caption="GoodFarm by Ponics Technologies">
+      <img className="img-fluid u-block-hover__main--zoom-v1" src={img4} alt="GoodFarm by Ponics Technologies" />
+    </a>
+  </div>
+  <div className="col-md-2">
+    <a className="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-transparent--hover--after" href="javascript:;" data-fancybox="lightbox-gallery--14" data-src={img5} data-caption="GoodFarm by Ponics Technologies">
+      <img className="img-fluid u-block-hover__main--zoom-v1" src={img5} alt="GoodFarm by Ponics Technologies" />
+    </a>
+  </div>
+</div>
 
           {/* End Cube Portfolio Blocks - Content */}
         </section>
 
-        <div className="masonry-grid">
-            <div className="masonry-grid-sizer g-width-16_6x--sm" />
-            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
-              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img1} data-caption="Lightbox Gallery">
-                <img className="img-fluid" src={img1} alt="Image Description" />
-              </a>
-            </div>
-            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
-              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img2} data-caption="Lightbox Gallery">
-                <img className="img-fluid" src={img2} alt="Image Description" />
-              </a>
-            </div>
-            <div className="masonry-grid-item u-block-hover g-width-33_3x--sm">
-              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img3} data-caption="Lightbox Gallery">
-                <img className="img-fluid" src={img3} alt="Image Description" />
-              </a>
-            </div>
-            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
-              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img4} data-caption="Lightbox Gallery">
-                <img className="img-fluid" src={img4} alt="Image Description" />
-              </a>
-            </div>
-            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
-              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img5} data-caption="Lightbox Gallery">
-                <img className="img-fluid" src={img5} alt="Image Description" />
-              </a>
-            </div>
-            
-          </div>
+
 
       </Layout>
     );

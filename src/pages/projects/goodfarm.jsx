@@ -61,18 +61,28 @@ As a result, we were able to harvest up to 1.5 tons of fresh basil every 31 days
               {/* Client */}
               <div className="mb-5">
                 <h3 className="h5 g-color-black mb-3">Productivity:</h3>
-                <p className="g-color-gray-dark-v4 ">
-                  <span className="u-icon-v1 g-mr-10">
-                    <i className="fa fa-bomb" />
-                  </span>
-1.5 tons babyleaf /mnth from 5400sqft
-                </p>                
-                <p className="g-color-gray-dark-v4 ">
-                  <span className="u-icon-v1 g-mr-10 g-mb-15">
-                    <i className="fa fa-thumbs-o-up" />
-                  </span>
-Growing: basil, arugula, salads
-                </p>
+
+                <div class="media g-mb-5">
+                    <div class="d-flex align-self-center mr-3">
+                      <span class="u-icon-v3 u-icon-size--sm  g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
+                        <i class="fa fa-bomb"></i>
+                      </span>
+                    </div>
+                    <div class="media-body align-self-center">
+                      <h3 class="h6 g-color-black mb-0">1.5 tons babyleaf /mnth from 5400sqft</h3>
+                    </div>
+                  </div>
+
+                  <div class="media g-mb-15">
+                    <div class="d-flex align-self-center mr-3">
+                      <span class="u-icon-v3 u-icon-size--sm  g-color-gray-dark-v4 g-bg-secondary g-bg-primary--hover g-color-white--hover rounded-circle">
+                        <i class="fa fa-thumbs-o-up"></i>
+                      </span>
+                    </div>
+                    <div class="media-body align-self-center">
+                      <h3 class="h6 g-color-black mb-0">Growing: basil, arugula, salads</h3>
+                    </div>
+                  </div>
               </div>
               {/* End Client */}
               {/* Designers */}

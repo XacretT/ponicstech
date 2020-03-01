@@ -74,11 +74,22 @@ export default function HTML(props) {
   <script src={withPrefix('/assets/vendor/custombox/custombox.min.js')}></script>
   <script src={withPrefix('/assets/js/components/hs.modal-window.js')}></script>
 
+
   <script
     dangerouslySetInnerHTML={{
     __html: `
     
     $(document).on('ready', function () {
+
+      // initialization of masonry
+      $('.masonry-grid').imagesLoaded().then(function () {
+        $('.masonry-grid').masonry({
+          columnWidth: '.masonry-grid-sizer',
+          itemSelector: '.masonry-grid-item',
+          percentPosition: true
+        });
+      });
+
       console.log("DOC READY");
       // initialization of countdowns
       var countdowns = $.HSCore.components.HSCountdown.init('.js-countdown', {

@@ -6,6 +6,11 @@ import Header from '../../components/Header'
 
 import backgroundimg from './goodfarm/bg.jpg'
 
+import img1 from './goodfarm/1.jpg'
+import img2 from './goodfarm/2.jpg'
+import img3 from './goodfarm/3.jpg'
+import img4 from './goodfarm/4.jpg'
+import img5 from './goodfarm/5.jpg'
 
 class Index extends React.Component {
   render() {
@@ -46,24 +51,27 @@ Whole farm consisted of 6 greenhouses 5400sqm each. Greenhouses were equipped wi
                 </p>
                 <p>
 We have choosen H-Type units in this case, because the fit babyleafs cultivation needs most. Each unit had 4 tiers each with independent nozzle and lighting systems. Total planting area of one greenhouse was 7750sqft.
-</p>
-<p>
-As a result, we were able to harvest up to 1.5 tons of fresh basil every 31 days from one such greenhouse</p>
+                </p>
+                <p>
+As a result, we were able to harvest up to 1.5 tons of fresh basil every 31 days from one such greenhouse
+                </p>
               </div>
-                          </div>
+            </div>
             <div className="col-md-4 g-mb-30">
               {/* Client */}
               <div className="mb-5">
                 <h3 className="h5 g-color-black mb-3">Productivity:</h3>
                 <p className="g-color-gray-dark-v4 ">
-                <span class="u-icon-v1 g-mr-10">
-  <i class="fa fa-bomb"></i>
-</span>1.5 tons babyleaf /mnth from 5400sqft
+                  <span className="u-icon-v1 g-mr-10">
+                    <i className="fa fa-bomb" />
+                  </span>
+1.5 tons babyleaf /mnth from 5400sqft
                 </p>                
                 <p className="g-color-gray-dark-v4 ">
-                <span class="u-icon-v1 g-mr-10 g-mb-15">
-  <i class="fa fa-thumbs-o-up"></i>
-</span>Growing: basil, arugula, salads
+                  <span className="u-icon-v1 g-mr-10 g-mb-15">
+                    <i className="fa fa-thumbs-o-up" />
+                  </span>
+Growing: basil, arugula, salads
                 </p>
               </div>
               {/* End Client */}
@@ -99,128 +107,40 @@ As a result, we were able to harvest up to 1.5 tons of fresh basil every 31 days
             </div>
           </div>
           {/* Cube Portfolio Blocks - Content */}
-          <div className="cbp g-mb-100 cbp-caption-active cbp-caption-overlayBottomAlong cbp-ready" data-controls="#filterControls1" data-animation="quicksand" data-x-gap={30} data-y-gap={30} data-media-queries="[{&quot;width&quot;: 1500, &quot;cols&quot;: 3}, {&quot;width&quot;: 1100, &quot;cols&quot;: 3}, {&quot;width&quot;: 800, &quot;cols&quot;: 3}, {&quot;width&quot;: 480, &quot;cols&quot;: 2}, {&quot;width&quot;: 300, &quot;cols&quot;: 1}]" style={{height: 663}}>
-            <div className="cbp-wrapper-outer">
-              <div className="cbp-wrapper">
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item identity design" style={{width: 350, left: 0, top: 0}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/800x500/img1.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/800x500/img1.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item design" style={{width: 350, left: 380, top: 0}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/760x900/img1.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/760x900/img1.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item graphic identity" style={{width: 350, left: 760, top: 0}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/800x500/img6.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/800x500/img6.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item graphic" style={{width: 350, left: 0, top: 249}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/800x500/img4.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/800x500/img4.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item graphic" style={{width: 350, left: 760, top: 249}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/760x900/img2.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/760x900/img2.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item identity" style={{width: 350, left: 380, top: 444}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/800x500/img3.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/800x500/img3.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-                {/* Cube Portfolio Blocks - Item */}
-                <div className="cbp-item identity" style={{width: 350, height: 165, left: 0, top: 498}}>
-                  <div className="cbp-item-wrapper">
-                    <div className="u-block-hover g-parent">
-                      <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src="../../assets/img-temp/800x380/img1.jpg" alt="Image description" />
-                      <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
-                        <div className="align-items-end flex-column mt-auto ml-auto">
-                          <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="../../assets/img-temp/800x380/img1.jpg">
-                    <i className="icon-communication-017 u-line-icon-pro" />
-                  </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Cube Portfolio Blocks - Item */}
-              </div>
-            </div>
-          </div>
+
+
           {/* End Cube Portfolio Blocks - Content */}
         </section>
 
-
+        <div className="masonry-grid">
+            <div className="masonry-grid-sizer g-width-16_6x--sm" />
+            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
+              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img1} data-caption="Lightbox Gallery">
+                <img className="img-fluid" src={img1} alt="Image Description" />
+              </a>
+            </div>
+            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
+              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img2} data-caption="Lightbox Gallery">
+                <img className="img-fluid" src={img2} alt="Image Description" />
+              </a>
+            </div>
+            <div className="masonry-grid-item u-block-hover g-width-33_3x--sm">
+              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img3} data-caption="Lightbox Gallery">
+                <img className="img-fluid" src={img3} alt="Image Description" />
+              </a>
+            </div>
+            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
+              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img4} data-caption="Lightbox Gallery">
+                <img className="img-fluid" src={img4} alt="Image Description" />
+              </a>
+            </div>
+            <div className="masonry-grid-item u-block-hover g-width-16_6x--sm">
+              <a className="js-fancybox d-block u-bg-overlay g-bg-black-opacity-0_3--after g-opacity-0_8--hover g-transition-0_3" href="javascript:;" data-fancybox="lightbox-gallery--07" data-src={img5} data-caption="Lightbox Gallery">
+                <img className="img-fluid" src={img5} alt="Image Description" />
+              </a>
+            </div>
+            
+          </div>
 
       </Layout>
     );

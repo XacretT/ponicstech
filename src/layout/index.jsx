@@ -30,7 +30,6 @@ import './assets/css/unify-core.css';
 import './assets/css/unify-components.css';
 import './assets/css/unify-globals.css';
 
-
 import './assets/css/custom.css';
 
 export default class MainLayout extends React.Component {

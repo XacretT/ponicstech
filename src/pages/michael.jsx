@@ -115,7 +115,9 @@ Moscow, Russian Federation / Los Angeles, USA
                             {/* End User Info */}
                             <hr className="g-brd-gray-light-v4 g-my-20" />
                             <p className="lead g-line-height-1_8">
-                            Experienced Chief Executive Officer with a demonstrated history of working in the farming industry. Strong business development professional skilled in Customer Service, Business Development, Strategic Planning, Marketing Strategy, and Strategy. 
+                            Experienced engineer with a demonstrated history of working in the agritech industry. Founder of the Ponics Technologies Inc. <br /><br />
+                            Has been developing aeroponic plant cultivation methods since 2011. The results of his work formed the basis of the company's business processes and become the major part of our identity.<br /><br />
+  Michael is a strong adept of the city-farming concepts and advanced plant cultivation methods.
 
                             </p>
 

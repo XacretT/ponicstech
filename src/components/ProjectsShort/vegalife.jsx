@@ -10,7 +10,7 @@ const VegaLife = () => (
           <div className="mb-5">
             <h2 className="h1 g-color-black mb-4">VegaLife</h2>
             <span className="d-block g-font-weight-600 g-font-size-20 mb-2">2019 - 2020<br /> 0.5 tons of babyleafs on 200sqm</span>
-            <p className="g-color-gray-dark-v4 g-font-size-16">Small-scale city-farm growing arugula, spinach, korsalad, mizuna and other eatable microgreens.</p>
+            <p className="g-color-gray-dark-v4 g-font-size-16">Small-scale city-farm growing arugula, spinach, kornsalad, mizuna and other eatable greens and babyleafs.</p>
           </div>
           <a className="btn u-btn-outline-primary g-font-weight-600 g-rounded-50 g-px-30 g-py-13" href="#">
 See more

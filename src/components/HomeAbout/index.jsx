@@ -107,9 +107,9 @@ Indeterminate growing
     </section>
     {/* End About */}
 
-    {/* Video */}
+    {/* Video 
 
-
+ 
     <section className="js-bg-video g-flex-centered g-height-500 g-color-white u-bg-overlay g-bg-black-opacity-0_6--after g-py-20 g-overflow-y-hidden" style={{backgroundImage: `url(${parallax})`}} data-hs-bgv-type="youtube" data-hs-bgv-id="A4pmZ45BY1I" data-hs-bgv-loop={1}>
       <Link to="/products/"> 
         {' '}
@@ -126,7 +126,7 @@ Indeterminate growing
         </div>
       </Link>
     </section>
-
+*/}
 
   </div>
 

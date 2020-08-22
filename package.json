@@ -57,7 +57,7 @@
     "stylelint": "^10.0.1",
     "stylelint-config-standard": "^18.3.0",
     "write-good": "^1.0.1",
-    "bootstrap": "4.2.1"
+    "bootstrap": "4.3.1"
   },
   "keywords": [
     "gatsby"

@@ -6,6 +6,7 @@ import belous from './belous.jpg'
 import timrieva from './timrieva.jpg'
 import kiselev from './kiselev.jpg'
 import azatian from './azatian.jpg'
+import alex from './alex.jpg'
 
 
 const CompanyTeam = () => (
@@ -244,7 +245,57 @@ Graduated Moscow State Industrial University with the Specialist degree in autom
   {/* End User Block */}
 
 
+ {/* User Block */}
+ <div className="g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-40">
+    <div className="row">
+      <div className="col-lg-4 g-mb-40 g-mb-0--lg">
+        {/* User Image */}
+        <div className="u-block-hover g-pos-rel g-mb-20">
+          <figure>
+            <img className="img-fluid w-100 u-block-hover__main--zoom-v1" src={alex} alt="Alex Kirichenko" />
+          </figure>
+        </div>
+        {/* User Image */}
+        {/* User Contact Buttons */}
+        <a className="btn btn-block u-btn-darkgray g-rounded-50 g-py-12 g-mb-10" href="mailto:3297711@gmail.com">
+          <i className="icon-envelope-letter g-pos-rel g-top-1 g-mr-5" /> Contact Me
+        </a>
+        {/* End User Contact Buttons */}
+      </div>
+      <div className="col-lg-8">
+        {/* User Details */}
+        <div className="d-flex align-items-center justify-content-sm-between g-mb-5">
+          <h2 className="g-font-weight-300 g-mr-10">Alex Kirichenko</h2>
+          <ul className="list-inline mb-0">
+            <li className="list-inline-item g-mx-2">
+              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.instagram.com/ponicstech/">
+                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-instagram" />
+                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-instagram" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        {/* End User Details */}
+        {/* User Position */}
+        <h4 className="h6 g-font-weight-300 g-mb-10">
+          <i className="icon-badge g-pos-rel g-top-1 g-mr-5 g-color-gray-dark-v5" /> Cheif Product Manager
+        </h4>
+        {/* End User Position */}
+        {/* User Info */}
+        <ul className="list-inline g-font-weight-300">
+          <li className="list-inline-item g-mr-20">
+            <i className="icon-location-pin g-pos-rel g-top-1 g-color-gray-dark-v5 g-mr-5" /> Tiraspol, Republic of Moldova
+          </li>
 
+        </ul>
+        {/* End User Info */}
+        <hr className="g-brd-gray-light-v4 g-my-20" />
+        <p className="lead g-line-height-1_8">Alex<br /></p>
+        <hr className="g-brd-gray-light-v4 g-my-20" />
+      </div>
+    </div>
+  </div>
+  {/* End User Block */}
 
 
   {/* User Block */}
@@ -396,73 +447,7 @@ Graduated with honors The Russian Academy of National Economy and Public Service
 
 
 
-    {/* User Block */}
-    <div className="g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-40">
-    <div className="row">
-      <div className="col-lg-4 g-mb-40 g-mb-0--lg">
-        {/* User Image */}
-        <div className="u-block-hover g-pos-rel g-mb-20">
-          <figure>
-            <img className="img-fluid w-100 u-block-hover__main--zoom-v1" src={belous} alt="Aleksei Belous" />
-          </figure>
-        </div>
-        {/* User Image */}
-        {/* User Contact Buttons */}
-        <a className="btn btn-block u-btn-outline-primary g-rounded-50 g-py-12 g-mb-10" href="https://www.facebook.com/alwhite.ru">
-          <i className="icon-user-follow g-pos-rel g-top-1 g-mr-5" /> Follow Me
-        </a>
-        <a className="btn btn-block u-btn-darkgray g-rounded-50 g-py-12 g-mb-10" href="mailto:itcrew@ponics.tech">
-          <i className="icon-envelope-letter g-pos-rel g-top-1 g-mr-5" /> Contact Me
-        </a>
-        {/* End User Contact Buttons */}
-      </div>
-      <div className="col-lg-8">
-        {/* User Details */}
-        <div className="d-flex align-items-center justify-content-sm-between g-mb-5">
-          <h2 className="g-font-weight-300 g-mr-10">Aleksei Belous</h2>
-          <ul className="list-inline mb-0">
-            <li className="list-inline-item g-mx-2">
-              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.facebook.com/alwhite.ru">
-                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-facebook" />
-                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-facebook" />
-              </a>
-            </li>
-            <li className="list-inline-item g-mx-2">
-              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://vk.com/alwhites">
-                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-vk" />
-                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-vk" />
-              </a>
-            </li>
-            <li className="list-inline-item g-mx-2">
-              <a className="u-icon-v1 u-icon-size--sm u-icon-slide-up--hover g-color-gray-light-v1 g-bg-gray-light-v5 g-color-gray-light-v1--hover rounded-circle" href="https://www.instagram.com/alwhite.olt/">
-                <i className="g-font-size-default g-line-height-1 u-icon__elem-regular fa fa-instagram" />
-                <i className="g-font-size-default g-line-height-0_8 u-icon__elem-hover fa fa-instagram" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* End User Details */}
-        {/* User Position */}
-        <h4 className="h6 g-font-weight-300 g-mb-10">
-          <i className="icon-badge g-pos-rel g-top-1 g-mr-5 g-color-gray-dark-v5" /> Head of IT Department
-        </h4>
-        {/* End User Position */}
-        {/* User Info */}
-        <ul className="list-inline g-font-weight-300">
-          <li className="list-inline-item g-mr-20">
-            <i className="icon-location-pin g-pos-rel g-top-1 g-color-gray-dark-v5 g-mr-5" /> Moscow, Russian Federation
-          </li>
-
-        </ul>
-        {/* End User Info */}
-        <hr className="g-brd-gray-light-v4 g-my-20" />
-        <p className="lead g-line-height-1_8">Alexey has extensive experience in developing and maintaining complex IT systems with a bias towards work with automated systems. Great experience was gained in the course of a long-term cooperation with The Federal Service for Supervision in the Sphere of Ecology.
-<br />He graduated from the Moscow Aviation Institute, engineer of the space aircraft and upper stages.<br /> Certified Cisco specialist in the field of computer networks.</p>
-        <hr className="g-brd-gray-light-v4 g-my-20" />
-      </div>
-    </div>
-  </div>
-  {/* End User Block */}
+   
   
 </div>
 
